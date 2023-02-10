@@ -1,3 +1,4 @@
+import path from 'path';
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
@@ -12,4 +13,10 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  alias: {
+    // '/@/':        path.resolve(__dirname, './app'),
+    // '/@assets/':  path.resolve(__dirname, './app/assets'),
+    // '/@js/':      path.resolve(__dirname, './app/js'),
+    // '/@css/':     path.resolve(__dirname, './app/css'),
+  },
 })

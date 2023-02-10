@@ -8,6 +8,10 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+
     steps:
 
     - name: Checkout 🛎️
@@ -19,26 +23,22 @@ jobs:
     - name: Node Environment 🔧
       uses: actions/setup-node@v1
       with:
-        node-version: 12
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install pnpm
+      run: npm i -g pnpm
+
+    - name: Install packages
+      run: pnpm i
 
     - name: Build Static Site 🔧
-      run: |
-        npm install
-        npm run-script build
-      #run: |
-      #  docker run \
-      #  -v ${{ github.workspace }}:/srv/jekyll \
-      #  -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-      #  jekyll/builder:latest /bin/bash \
-      #  -c "chmod 777 /srv/jekyll && jekyll build --future"
+      run: pnpm run-script build
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: _site
+        FOLDER: dist
         CLEAN: true
         COMMIT_MESSAGE: 'Publishing'
-      #   JEKYLL_SITE: NO
-      #   CNAME: www.kaceong.com
