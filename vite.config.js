@@ -14,9 +14,9 @@ export default defineConfig({
     vue(),
   ],
   alias: {
-    // '/@/':        path.resolve(__dirname, './app'),
-    // '/@assets/':  path.resolve(__dirname, './app/assets'),
-    // '/@js/':      path.resolve(__dirname, './app/js'),
-    // '/@css/':     path.resolve(__dirname, './app/css'),
+    '@/':        path.resolve(__dirname, './app'),
+    '@assets/':  path.resolve(__dirname, './app/assets'),
+    '@styles/':     path.resolve(__dirname, './app/styles'),
+    '@js/':      path.resolve(__dirname, './app/js'),
   },
 })
