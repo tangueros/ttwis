@@ -18,9 +18,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x]
 
     steps:
 
@@ -30,7 +27,7 @@ jobs:
     - name: Node Environment 🔧
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: "16"
 
     - name: Install pnpm
       run: npm i -g pnpm
