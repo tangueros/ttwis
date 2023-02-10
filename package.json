@@ -1,0 +1,26 @@
+{
+  "name": "ttwis",
+  "version": "0.1.0",
+  "description": "js library for gcalendar management",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MilanKacurak/FormatGoogleCalendar.git"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.1"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  }
+}
