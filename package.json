@@ -8,9 +8,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "pnpm run doc:dev",
+    "build": "pnpm run doc:build",
+    "app:dev": "vite",
+    "app:build": "vite build",
+    "app:preview": "vite preview",
     "doc:dev": "vitepress dev",
     "doc:build": "vitepress build",
     "doc:preview": "vitepress preview"
