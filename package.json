@@ -10,7 +10,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "doc:dev": "vitepress dev",
+    "doc:build": "vitepress build",
+    "doc:preview": "vitepress preview"
   },
   "repository": {
     "type": "git",
@@ -19,7 +22,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
     "dayjs": "^1.11.7",
-    "vite": "^4.1.1"
+    "vite": "^4.1.1",
+    "vitepress": "1.0.0-alpha.46"
   },
   "dependencies": {
     "vue": "^3.2.47"
