@@ -2,9 +2,18 @@
 title: About
 ---
 
-The great project begins.
+One Pix
+![img](/pix/p.jpg){width=100}
+![img](/res/p1.jpg){width=100}
 
-## More About Us
+Two Pix
+![img](/pix/q.jpg){width=100}
+![img](/res/q1.jpg){width=100}
 
-Find here
 
+New
+
+<!--![img](pathname:///minimal-1.jpg){width=100}-->
+
+
+[CNAME](pathname:///CNAME)

@@ -1,9 +1,17 @@
-export default {
+import { defineConfig } from 'vitepress'
+import { version } from '../package.json'
+
+export default defineConfig({
   base: '/ttwis/',
   srcDir: './docs',
+  //srcExclude
   //outDir: '',
-  port: 3333,
-  host: '0.0.0.0',
+  //cacheDir
+  //shouldPreload?
+  //mpa?
+  //scrollOffset?
+  //useWebFonts
+  //rewrites
 
   lang: 'en-us',
   title: 'ttwis-data',
@@ -33,13 +41,24 @@ export default {
     // stuffs more stuffs
   },
 
+  //markdown:
+  //vue:
+  vite: {
+    //publicDir: './public',
+    server: {
+      port: 3000,
+      host: '0.0.0.0',
+    },
+  },
+
 ////////////////////////////////////////////////
 
   themeConfig: {
     //logo: '/logo.svg',
     siteTitle: 'TTWIS Data Project',
     nav: [
-      { text: 'Guide', link: '/guide/introduction' },
+      { text: 'Guide', link: '/guide/introduction', activeMatch: '/guide/' },
+      { text: 'Blog', link: '/blog/', activeMatch: '/blog/' },
       {
         text: 'Producer Data',
         items: [
@@ -55,8 +74,8 @@ export default {
         items: [
           { text: 'Introduction', link: '/guide/introduction' },
           { text: 'Motivation', link: '/guide/motivation' },
+          { text: 'Strategies', link: '/guide/strategies' },
           { text: 'Datas', link: '/guide/datas' },
-          { text: 'Displays', link: '/guide/displays' },
           { text: 'Sources', link: '/guide/sources' },
           { text: 'Formats', link: '/guide/formats' },
           { text: 'Libraries', link: '/guide/libraries' },
@@ -64,7 +83,21 @@ export default {
         ]
       }
     ],
+    footer: {
+      message: 'TTWIS Data',
+      copyright: 'Copyright 2023 TTWIS',
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/tangueros/ttwis'},
+    ],
+    editLink: {
+      pattern: 'https://github.com/tangueros/ttwis/edit/main/docs/:path',
+      text: 'Edit this page on GitHub',
+    },
+    blog: {
+      title: 'My Blog',
+      description: 'Some Blog Articles',
+    },
 
   },
-}
-
+})
