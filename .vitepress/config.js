@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
-import { version } from '../package.json'
+//import Pages from "vite-plugin-pages";
+//import generateSitemap from 'vite-plugin-pages-sitemap'
+//import { extendRoutes } from "../src";
 
 export default defineConfig({
   base: '/ttwis/',
@@ -49,6 +51,21 @@ export default defineConfig({
       port: 3000,
       host: '0.0.0.0',
     },
+    plugins: [
+/*
+      Pages({
+        dirs: [
+          { dir: ".", baseRoute: "." },
+        ],
+        exclude: [
+          '** /node_modules/ ** / *.*',
+          '** /!(index).md'],
+        extensions: ['md'],
+        ...extendRoutes(),
+        // onRoutesGenerated: routes => (generateSitemap({ routes, hostname: 'http://localhost/' })),
+      }),
+*/
+    ],
   },
 
 ////////////////////////////////////////////////

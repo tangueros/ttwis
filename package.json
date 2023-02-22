@@ -24,10 +24,14 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
     "dayjs": "^1.11.7",
-    "vite": "^4.1.1",
-    "vitepress": "1.0.0-alpha.46"
+    "pug": "^3.0.2",
+    "vite": "^4.1.4",
+    "vite-plugin-pages": "^0.28.0",
+    "vite-plugin-pages-sitemap": "^1.4.5",
+    "vitepress": "1.0.0-alpha.47"
   },
   "dependencies": {
+    "vitepress-pages": "^1.0.5",
     "vue": "^3.2.47"
   }
 }

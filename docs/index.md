@@ -26,3 +26,6 @@ Learn all about
 ---
 
 [About](/about)
+
+## BROWSER
+<browser />
