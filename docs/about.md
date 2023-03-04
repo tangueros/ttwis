@@ -2,18 +2,25 @@
 title: About
 ---
 
-One Pix
-![img](/pix/p.jpg){width=100}
-![img](/pres/p1.jpg){width=100}
-
-Two Pix
-![img](/pix/q.jpg){width=100}
-![img](/pres/q1.jpg){width=100}
 
 
-New
+## CALVIEW
 
-<!--![img](pathname:///minimal-1.jpg){width=100}-->
+<calview
+ourl="milan.kacurak@gmail.com"
+url='v8ehau6nv4q3r3pdaf8nvmiqo8@group.calendar.google.com'
+/>
 
 
-[CNAME](pathname:///CNAME)
+browser
+
+<script setup>
+//  import settings from '../src/app.js'
+//  import p from '../src/my.json'
+//You are {{ settings }} or {{ p }}
+
+import x from '../src/caldo.js'
+
+</script>
+
+This is {{x()}}

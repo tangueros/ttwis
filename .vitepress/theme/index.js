@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
-import browser from './browser.vue'
+import browser from './components/browser.vue'
+import calview from './components/calview.vue'
 
 //import routes from "~pages";
 //import { getPages } from '../../src/browser'
@@ -13,5 +14,6 @@ export default {
   enhanceApp({ app }) {
     // register global components
     app.component('browser', browser)
+    app.component('calview', calview)
   }
 }

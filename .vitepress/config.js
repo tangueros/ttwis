@@ -1,7 +1,11 @@
+import path from 'path';
 import { defineConfig } from 'vitepress'
 //import Pages from "vite-plugin-pages";
 //import generateSitemap from 'vite-plugin-pages-sitemap'
 //import { extendRoutes } from "../src";
+
+//const p = path.resolve(__dirname, '../src')
+//console.log('Path is',p)
 
 export default defineConfig({
   base: '/ttwis/',
@@ -46,6 +50,13 @@ export default defineConfig({
   //markdown:
   //vue:
   vite: {
+/*
+    resolve: {
+      alias: {
+        '@src/': path.resolve(__dirname, '../src/'),
+      },
+    },
+*/
     //publicDir: './public',
     server: {
       port: 3000,

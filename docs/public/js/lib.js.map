@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/app.js"],
+  "sourcesContent": ["/** Format Google Calendar */\n'use strict';\n\nconst settings = {\n  name: 'Google Calendar Library',\n  url: 'https://www.googleapis.com/',\n};\n\nexport default settings;\n"],
+  "mappings": "mBAGA,IAAMA,EAAW,CACf,KAAM,0BACN,IAAK,6BACP,EAEOC,EAAQD",
+  "names": ["settings", "app_default"]
+}

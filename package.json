@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "js library for gcalendar management",
   "keywords": [],
-  "author": "",
+  "author": "KaceO <kaceong@gmail.com>",
   "license": "ISC",
   "main": "index.js",
   "type": "module",
@@ -15,20 +15,19 @@
     "app:preview": "vite preview",
     "doc:dev": "vitepress dev",
     "doc:build": "vitepress build",
-    "doc:preview": "vitepress preview"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MilanKacurak/FormatGoogleCalendar.git"
+    "doc:preview": "vitepress preview",
+    "compile": "esbuild src/app.js --bundle --minify --sourcemap --target=chrome100 --outfile=docs/public/js/lib.js",
+    "xcompile": "babel --presets es2015 src/app.js -o dist/callib.js"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
     "dayjs": "^1.11.7",
+    "esbuild": "^0.17.11",
     "pug": "^3.0.2",
     "vite": "^4.1.4",
     "vite-plugin-pages": "^0.28.0",
     "vite-plugin-pages-sitemap": "^1.4.5",
-    "vitepress": "1.0.0-alpha.47"
+    "vitepress": "1.0.0-alpha.49"
   },
   "dependencies": {
     "vitepress-pages": "^1.0.5",

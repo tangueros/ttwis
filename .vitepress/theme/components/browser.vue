@@ -20,17 +20,22 @@ section
   h2 All routes
   .list routes expanded
   h2 Pages
-  p {{ pages }}
+  p { { pages } }
   h2 Page
-  p {{ page }}
+  p { { page } }
   h3 Parents
-  p {{ parents }}
+  p { { parents } }
   h3 Siblings
-  p {{ siblings }}
+  p { { siblings } }
 
 </template>
 
 <style scoped>
+section {
+  border: 1px solid red;
+  padding: 4px;
+  background: #EEFFAA;
+}
 .list {
   display: flex;
   flex-flow: column;
