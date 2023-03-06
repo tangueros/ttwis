@@ -6,11 +6,11 @@ const myurl = ''
 //'v8ehau6nv4q3r3pdaf8nvmiqo8@group.calendar.google.com'
 //https://jsonplaceholder.typicode.com/posts/1
 
-import { day } from '../../../src/helper/daylib'
+import { day } from '../helper/daylib'
 import {
   comp, //compare two start dates
   isPast, //date is older than now
-} from '../../../src/helper/datelib'
+} from '../helper/datelib'
 
 export function inRange(dt) {
   const limit = 31 // 14 days

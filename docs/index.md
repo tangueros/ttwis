@@ -19,17 +19,19 @@ hero:
 
 features:
   - icon: 🛠️
-    title: Configuration
+    title: Singapore
     details: lorem ipsum...
   - icon: 🛠️
     #  src: /minimal-1.png
-    title: Aggregation
+    title: Hong Kong
     details: ipsem lorem...
 
 
 title: TTWIS IS HERE
 
 ---
+<div class="VPFeatures VPHomeFeatures">
+<div class="container">
 
 Learn all about
 
@@ -42,11 +44,14 @@ Learn all about
 [tester](/tester/)
 
 One Pix
-![img](/pix/p.jpg){width=100}
-![img](/pres/p1.jpg){width=100}
+![img](/pix/p.jpg){.avatar .w-24 .shadow-md }
+
+
+![img](/pres/p1.jpg){.avatar .w-16 .rounded-lg }
 
 Two Pix
 ![img](/pix/q.jpg){width=100}
+
 ![img](/pres/q1.jpg){width=100}
 
 
@@ -56,3 +61,6 @@ New
 
 
 [CNAME](pathname:///CNAME)
+
+
+</div></div>

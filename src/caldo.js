@@ -1,7 +1,7 @@
-import { mergeOptions } from './helper/extralib'
+import { mergeOptions } from '../vue/helper/extralib'
 import { getDateInfo, isAllDay, isSameDay,
   subtractOneDay, getFormattedDate,
-} from './helper/datelib'
+} from '../vue/helper/datelib'
 
 
 //Get all necessary data (dates, location, summary, description) and creates a list item

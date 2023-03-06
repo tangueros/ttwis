@@ -1,7 +1,7 @@
 /** Format Google Calendar */
 'use strict';
 
-import day from './helper/daylib.js'
+import day from '../vue/helper/daylib.js'
 
 const settings = {
   name: 'Google Calendar Library',

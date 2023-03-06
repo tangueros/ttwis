@@ -40,19 +40,20 @@ section
             a(:href='getcallink(i)'
               target="_BLANK"
             )
-              | Copy Event to&nbsp;
+              | [Copy Event to&nbsp;
               img(border="0"
                 src="https://www.google.com/calendar/images/ext/gc_button1_en.gif")
-
+              | ]
             | &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
             a(:href='getmaplink(i.location)'
               target="_BLANK"
             )
-              | Lookup Venue in&nbsp;
-              img(border="0"
+              | [View location in Google Map]&nbsp;
+              //-img(border="0"
                 src="https://www.google.com/calendar/images/ext/gc_button1_en.gif")
             | &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            button(@click='genics(i)') Copy Event to ICS
+            br
+            button(@click='genics(i)') [Copy Event to Apple Ical ICS]
 
       .timebottom
 
@@ -62,8 +63,8 @@ section
 <script setup>
 const props = defineProps(['url'])
 import { ref, onMounted, onUnmounted } from 'vue'
-import { day, nicedate, nicetime } from '../../../src/helper/daylib'
-import { getics } from '../../../src/helper/icsgen'
+import { day, nicedate, nicetime } from '../helper/daylib'
+import { getics } from '../helper/icsgen'
 import { useCal, inRange, spread } from '../composables/calapi'
 const {cald, fetchurl, getCal, makeUrl} = useCal(props.url)
 
