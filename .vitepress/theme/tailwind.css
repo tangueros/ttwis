@@ -3,3 +3,8 @@
 @tailwind utilities;
 
 
+.content .vp-doc a {
+  color: #000;
+  background-color: #eec;
+  border: 1px solid red;
+}

@@ -20,8 +20,8 @@ export default defineConfig({
   //rewrites
 
   lang: 'en-us',
-  title: 'ttwis-data',
-  description: 'producer-data-catalog',
+  title: 'ttwis-cal-project',
+  description: 'calendar aggregator toolkitg',
   ignoreDeadLinks: true,
   cleanUrls: true,
   rewrites: {},
@@ -83,18 +83,18 @@ export default defineConfig({
 
   themeConfig: {
     //logo: '/logo.svg',
-    siteTitle: 'TTWIS Data Project',
+    siteTitle: 'TTWIS Calendar Project',
     nav: [
-      { text: 'Guide', link: '/guide/introduction', activeMatch: '/guide/' },
-      { text: 'Blog', link: '/blog/', activeMatch: '/blog/' },
       {
-        text: 'Producer Data',
+        text: 'Places',
         items: [
-          { text: 'Singapore', link: '/singapore' },
-          { text: 'Malaysia', link: '/malaysia' },
-          { text: 'Thailand', link: '/thailand' }
+          { text: 'Singapore', link: '/place/sg' },
+          { text: 'Malaysia', link: '/place/my' },
+          { text: 'Hong Kong', link: '/place/hk/' }
         ]
-      }
+      },
+      { text: 'Guide', link: '/guide/introduction', activeMatch: '/guide/' },
+      { text: 'Specification', link: '/specs/introduction', activeMatch: '/specs/' },
     ],
     sidebar: [
       {
@@ -112,7 +112,7 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: 'TTWIS Data',
+      message: 'TTWIS Calendar Project',
       copyright: 'Copyright 2023 TTWIS',
     },
     socialLinks: [

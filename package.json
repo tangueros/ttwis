@@ -31,11 +31,11 @@
     "vite": "^4.1.4",
     "vite-plugin-pages": "^0.28.0",
     "vite-plugin-pages-sitemap": "^1.4.5",
-    "vitepress": "1.0.0-alpha.49"
+    "vitepress": "1.0.0-alpha.50"
   },
   "dependencies": {
     "markdown-it": "^13.0.1",
-    "pinia": "^2.0.32",
+    "pinia": "^2.0.33",
     "vitepress-pages": "^1.0.5",
     "vue": "^3.2.47"
   },
