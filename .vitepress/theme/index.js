@@ -1,8 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import './tailwind.css'
 
-//import browser from './components/browser.vue'
-//import calview from './components/calview.vue'
 const componentFiles = import.meta.glob([
   //'./components/*.vue',
   '../../vue/components/*.vue',
@@ -10,19 +8,16 @@ const componentFiles = import.meta.glob([
 
 //import routes from "~pages";
 //import { getPages } from '../../src/browser'
-
 //const pages = getPages(routes)
-
 //export { routes, pages };
 
 export default {
   ...DefaultTheme,
   enhanceApp({ app, router, siteData }) {
     DefaultTheme.enhanceApp({ app, router, siteData })
+    console.log('Inside enhanceApp of Theme')
 
     // register global components
-    //app.component('browser', browser)
-    //app.component('calview', calview)
     Object.entries(componentFiles)
     .forEach(([path, definition]) => {
       const componentName = path.split('/').pop().replace(/\.\w+$/, '')
@@ -35,6 +30,6 @@ export default {
     //console.log(router, siteData)
   },
   setup() {
-
+    console.log('Inside setup of Theme')
   },
 }

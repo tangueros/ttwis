@@ -21,7 +21,7 @@ export default defineConfig({
 
   lang: 'en-us',
   title: 'ttwis-cal-project',
-  description: 'calendar aggregator toolkitg',
+  description: 'calendar aggregator toolkit',
   ignoreDeadLinks: true,
   cleanUrls: true,
   rewrites: {},
@@ -83,20 +83,31 @@ export default defineConfig({
 
   themeConfig: {
     //logo: '/logo.svg',
-    siteTitle: 'TTWIS Calendar Project',
+    siteTitle: 'TTWIS-Cal Project',
     nav: [
       {
         text: 'Places',
         items: [
           { text: 'Singapore', link: '/place/sg' },
           { text: 'Malaysia', link: '/place/my' },
-          { text: 'Hong Kong', link: '/place/hk/' }
+          { text: 'Hong Kong', link: '/place/hk' }
         ]
       },
       { text: 'Guide', link: '/guide/introduction', activeMatch: '/guide/' },
       { text: 'Specification', link: '/specs/introduction', activeMatch: '/specs/' },
     ],
     sidebar: [
+      {
+        text: 'Places',
+        items: [
+          { text: 'Singapore', link: '/place/sg' },
+          { text: 'Hong Kong', link: '/place/hk' },
+          { text: 'Malaysia', link: '/place/my' },
+          //{ text: 'Taiwan', link: '/place/tw' },
+          //{ text: 'UK', link: '/place/uk' },
+          //{ text: 'Argentina', link: '/place/ar' },
+        ]
+      },
       {
         text: 'Guide',
         items: [
@@ -109,10 +120,16 @@ export default defineConfig({
           { text: 'Libraries', link: '/guide/libraries' },
           { text: 'Team', link: '/guide/team' },
         ]
-      }
+      },
+      {
+        text: 'About',
+        items: [
+          { text: 'About', link: '/about' },
+        ]
+      },
     ],
     footer: {
-      message: 'TTWIS Calendar Project',
+      message: 'TTWIS-Cal Project',
       copyright: 'Copyright 2023 TTWIS',
     },
     socialLinks: [

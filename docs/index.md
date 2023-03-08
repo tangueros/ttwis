@@ -2,13 +2,16 @@
 layout: home
 
 hero:
-  name: TTWIS Calendar Project
-  text: Aggregation and Formatting for Google Calendars
-  tagline: A simple toolbox for managing community events
+  name: TTWIS-Cal Project
+  text: Aggregation and Prettyprint for Google Calendars
+  tagline: A toolbox for managing community events
   #image:
   #  src: /logo.png
   #  alt: vitepress
   actions:
+    - theme: brand
+      text: Singapore
+      link: /place/sg
     - theme: brand
       text: Guide
       link: /guide/introduction
@@ -21,6 +24,7 @@ features:
   - icon: 🛠️
     title: Singapore
     details: lorem ipsum...
+
   - icon: 🛠️
     #  src: /minimal-1.png
     title: Hong Kong

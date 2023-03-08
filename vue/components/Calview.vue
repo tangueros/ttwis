@@ -1,18 +1,20 @@
 <template lang="pug">
 section
-  h2 Calendar View
-  p The URL is {{ url}}
-  p The fetch is {{ fetchurl }}
-  button(@click='getCal()') Click to Get
+  //-
+    h2 Calendar View
+    p The URL is {{ url}}
+    p The fetch is {{ fetchurl }}
+    button(@click='getCal()') Click to Get
 
-  hr
-  p ICS is
-  pre {{ ics }}
-  hr
+    hr
+    p ICS is
+    pre {{ ics }}
+    hr
+
   template(v-if="!cald")
     p No Cal Data
   template(v-else)
-    p Have Cal Data
+    //-p Have Cal Data
     .calcard(v-for="i in cald")
       //-p {{ isnewday(i.start.dateTime) }}
       .daterow(v-if="isnewday(i.start.dateTime)")
