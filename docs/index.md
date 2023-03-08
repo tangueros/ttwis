@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: TTWIS Data Project
-  text: Evolving Community Calendars
-  tagline: Configuration, Aggregation, Markup, Tagging
+  name: TTWIS Calendar Project
+  text: Aggregation and Formatting for Google Calendars
+  tagline: A simple toolbox for managing community events
   #image:
   #  src: /logo.png
   #  alt: vitepress
