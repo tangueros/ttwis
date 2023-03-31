@@ -1,0 +1,23 @@
+{
+  "sg": {
+    "country": "Singapore",
+    "linkurl": "https://sites.google.com/view/ttwis/home",
+    "timezone": "Asia/Singapore",
+    "mapvenues": "1JDSri3tFP97YMdRn8YKCqXy_tP4",
+    "cals": [
+      "v8ehau6nv4q3r3pdaf8nvmiqo8@group.calendar.google.com",
+      "v358jjiemm7tn05fo8gevpqrk54siboj@import.calendar.google.com"
+    ]
+  },
+
+  "hk": {
+    "country": "HongKong",
+    "linkurl": "https://tangohongkong.com",
+    "timezone": "Asia/Hong_Kong",
+    "mapvenues": "1jb2Qn9teeeQ7OJSGOvrro6PWg6Zw-hE",
+    "cals": [
+      "iekkk1k2l8sgqrcu30t623mpr0@group.calendar.google.com",
+      "68os6g9fma9aa15500peqb9e7fnvpot0@import.calendar.google.com"
+    ]
+  }
+}

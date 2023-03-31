@@ -1,5 +1,7 @@
 import path from 'path';
 import { defineConfig } from 'vitepress'
+//import content from '@originjs/vite-plugin-content'
+
 //import Pages from "vite-plugin-pages";
 //import generateSitemap from 'vite-plugin-pages-sitemap'
 //import { extendRoutes } from "../src";
@@ -76,6 +78,7 @@ export default defineConfig({
         // onRoutesGenerated: routes => (generateSitemap({ routes, hostname: 'http://localhost/' })),
       }),
 */
+      //content(),
     ],
   },
 
@@ -98,7 +101,7 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: 'Places',
+        text: 'Demos',
         items: [
           { text: 'Singapore', link: '/place/sg' },
           { text: 'Hong Kong', link: '/place/hk' },

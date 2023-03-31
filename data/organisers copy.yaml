@@ -1,0 +1,62 @@
+
+hk:
+  country: HongKong
+  linkurl: https://tangohongkong.com
+  timezone: Asia/Hong_Kong
+  mapvenues: 1jb2Qn9teeeQ7OJSGOvrro6PWg6Zw-hE
+  omap: 19Q_RR0JbSNlkjjwwzW2SOJAhO_Q
+  cals:
+    - v8ehau6nv4q3r3pdaf8nvmiqo8@group.calendar.google.com
+    - v358jjiemm7tn05fo8gevpqrk54siboj@import.calendar.google.com
+
+
+sg:
+  country: Singapore
+  linkurl: https://sites.google.com/view/ttwis/home
+  timezone: Asia/Singapore
+  mapvenues: 1JDSri3tFP97YMdRn8YKCqXy_tP4
+  cals:
+    - v8ehau6nv4q3r3pdaf8nvmiqo8@group.calendar.google.com
+    - v358jjiemm7tn05fo8gevpqrk54siboj@import.calendar.google.com
+
+
+tw:
+  country: Singapore
+  linkurl: https://sites.google.com/view/ttwis/home
+  timezone: Asia/Taipei
+  mapvenues: 1RzqMAHk1V2cAihDSvG6qlGhQGt8
+  mapis: 'Taipei'
+  cals:
+    - v8ehau6nv4q3r3pdaf8nvmiqo8@group.calendar.google.com
+    - v358jjiemm7tn05fo8gevpqrk54siboj@import.calendar.google.com
+
+my:
+  country: Malaysia
+  linkurl: https://tangomalaysia.com
+  timezone: Asia/Kuala_Lumpur
+  mapvenues: 1kqohI_FLiUWSYbJ_kJRujxuzcIU
+  mapis: 'KL Tango Fest'
+  cals:
+    - v8ehau6nv4q3r3pdaf8nvmiqo8@group.calendar.google.com
+    - v358jjiemm7tn05fo8gevpqrk54siboj@import.calendar.google.com
+
+
+ar:
+  country: Argentina
+  linkurl: https://
+  timezone: Americas/Buenos_Aires
+  mapvenues: 1nA2-qnjRBowLkyMAVJa_IHD2ioc
+  mapis: 'BsAs'
+  cals:
+    - v8ehau6nv4q3r3pdaf8nvmiqo8@group.calendar.google.com
+    - v358jjiemm7tn05fo8gevpqrk54siboj@import.calendar.google.com
+
+uk:
+  country: United Kingdom
+  linkurl: https://
+  timezone: Europe/London
+  mapvenues: 1LQMhTuQGDnTMow41U9gsaFivPCA
+  mapis: 'UK'
+  cals:
+    - v8ehau6nv4q3r3pdaf8nvmiqo8@group.calendar.google.com
+    - v358jjiemm7tn05fo8gevpqrk54siboj@import.calendar.google.com

@@ -1,4 +1,7 @@
 ---
 aside: false
 ---
-<PlaceHome country='Singapore' code='sg'/>
+<PlaceHome
+country='Singapore'
+code='sg'
+/>
