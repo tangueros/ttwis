@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Singapore
-      link: /place/sg
+      link: /place/sin
     - theme: brand
       text: Guide
       link: /guide/introduction

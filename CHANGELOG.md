@@ -3,7 +3,8 @@
 ## Changes
 
 ### v0.3.0 2023 Apr 1
-- Demos of three cities
+- Demos of three cities Singapore, Hong Kong, Kuala Lumpur
+- Basic formatting of rich text snippets
 
 ### v0.2.0 2023 Mar 1
 - Define Markdown-based event description

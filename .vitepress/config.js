@@ -9,6 +9,16 @@ import { defineConfig } from 'vitepress'
 //const p = path.resolve(__dirname, '../src')
 //console.log('Path is',p)
 
+const places = [
+  { text: 'Singapore', link: '/place/sin' },
+  { text: 'Hong Kong', link: '/place/hkg' },
+  { text: 'Kuala Lumpur', link: '/place/kul' },
+  { text: 'Penang', link: '/place/pen' },
+]
+  //{ text: 'Taiwan', link: '/place/tw' },
+  //{ text: 'UK', link: '/place/uk' },
+  //{ text: 'Argentina', link: '/place/ar' },
+
 export default defineConfig({
   base: '/ttwis/',
   srcDir: './docs',
@@ -90,11 +100,7 @@ export default defineConfig({
     nav: [
       {
         text: 'Places',
-        items: [
-          { text: 'Singapore', link: '/place/sg' },
-          { text: 'Malaysia', link: '/place/my' },
-          { text: 'Hong Kong', link: '/place/hk' }
-        ]
+        items: places,
       },
       { text: 'Guide', link: '/guide/introduction', activeMatch: '/guide/' },
       { text: 'Specification', link: '/specs/introduction', activeMatch: '/specs/' },
@@ -102,14 +108,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Demos',
-        items: [
-          { text: 'Singapore', link: '/place/sg' },
-          { text: 'Hong Kong', link: '/place/hk' },
-          { text: 'Malaysia', link: '/place/my' },
-          //{ text: 'Taiwan', link: '/place/tw' },
-          //{ text: 'UK', link: '/place/uk' },
-          //{ text: 'Argentina', link: '/place/ar' },
-        ]
+        items: places,
       },
       {
         text: 'Guide',

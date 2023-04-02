@@ -1,5 +1,6 @@
 {
-  "sg": {
+  "sin": {
+    "name": "Singapore",
     "country": "Singapore",
     "linkurl": "https://sites.google.com/view/ttwis/home",
     "timezone": "Asia/Singapore",
@@ -10,8 +11,9 @@
     ]
   },
 
-  "hk": {
-    "country": "HongKong",
+  "hkg": {
+    "name": "Hong Kong",
+    "country": "Hong Kong",
     "linkurl": "https://tangohongkong.com",
     "timezone": "Asia/Hong_Kong",
     "mapvenues": "1jb2Qn9teeeQ7OJSGOvrro6PWg6Zw-hE",
@@ -19,5 +21,30 @@
       "iekkk1k2l8sgqrcu30t623mpr0@group.calendar.google.com",
       "68os6g9fma9aa15500peqb9e7fnvpot0@import.calendar.google.com"
     ]
+  },
+
+  "kul": {
+    "name": "Kuala Lumpur",
+    "country": "Malaysia",
+    "linkurl": "https://tangohongkong.com",
+    "timezone": "Asia/Kuala_Lumpur",
+    "mapvenues": "12IunBeJ40-drwYT2Wu-2gvvmvGW9l2g",
+    "cals": [
+      "iekkk1k2l8sgqrcu30t623mpr0@group.calendar.google.com",
+      "fhh7dn9nm6qotni460lc0cihjpu7nbpf@import.calendar.google.com"
+    ]
+  },
+
+  "pen": {
+    "name": "Penang",
+    "country": "Malaysia",
+    "linkurl": "https://tangohongkong.com",
+    "timezone": "Asia/Kuala_Lumpur",
+    "mapvenues": "1-9hbSb6ci2xtjiE7-2-w4EsP2nvQ2dY",
+    "cals": [
+      "iekkk1k2l8sgqrcu30t623mpr0@group.calendar.google.com",
+      "fhh7dn9nm6qotni460lc0cihjpu7nbpf@import.calendar.google.com"
+    ]
   }
+
 }

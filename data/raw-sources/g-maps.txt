@@ -1,0 +1,43 @@
+# Singapore GMap
+
+
+https://www.google.com/maps/d/u/0/edit?mid=1JDSri3tFP97YMdRn8YKCqXy_tP4&usp=sharing
+
+mid=1JDSri3tFP97YMdRn8YKCqXy_tP4
+
+# Hong Kong GMap
+
+https://www.google.com/maps/d/u/0/edit?mid=1jb2Qn9teeeQ7OJSGOvrro6PWg6Zw-hE&usp=sharing
+
+mid=1jb2Qn9teeeQ7OJSGOvrro6PWg6Zw-hE
+
+# Taiwan
+## Taipei GMap
+
+# Malaysia
+## Kuala Lumpur GMap
+https://www.google.com/maps/d/u/0/edit?mid=12IunBeJ40-drwYT2Wu-2gvvmvGW9l2g&ll=3.16208561295391%2C101.64411081874084&z=17
+
+mid=12IunBeJ40-drwYT2Wu-2gvvmvGW9l2g
+
+## Penang GMap
+https://www.google.com/maps/d/u/0/edit?mid=1-9hbSb6ci2xtjiE7-2-w4EsP2nvQ2dY&ll=5.424531270395832%2C100.31734820838369&z=13
+mid=1-9hbSb6ci2xtjiE7-2-w4EsP2nvQ2dY
+
+# Thailand
+## Bangkok GMap
+https://www.google.com/maps/d/u/0/edit?mid=1i0IAJarMWy0F2QbXFQdDSEPQ4oW2GmU&ll=13.741491447283334%2C100.53629432681579&z=14
+mid=1i0IAJarMWy0F2QbXFQdDSEPQ4oW2GmU
+
+# Indonesia
+## Jakarta GMap
+
+## Bali GMap
+
+
+
+
+# Japan
+## Fukuoka
+https://www.google.com/maps/d/u/0/edit?mid=1GzAKns3AtsjEva8nzmd8KOAdNP2vk8A&ll=33.588999320092455%2C130.39698344514977&z=16
+mid=1GzAKns3AtsjEva8nzmd8KOAdNP2vk8A

@@ -3,5 +3,5 @@ aside: false
 ---
 <PlaceHome
 country='Singapore'
-code='sg'
+code='sin'
 />

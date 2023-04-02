@@ -2,6 +2,6 @@
 aside: false
 ---
 <PlaceHome
-country='Malaysia'
-code='my'
+country='Hong Kong'
+code='hkg'
 />
