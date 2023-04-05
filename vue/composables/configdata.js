@@ -2,19 +2,18 @@
 
 import { ref } from 'vue'
 import srcdata from '../../data/org.json'
-//console.log('Tdata is ', tdata)
 
-export function useConfig(code, country) {
+export function useConfig(code) {
 
   const isValid = code in srcdata
   const thisCity = (isValid) ? srcdata[code] : null
-  const title = country + " Tango"
-
   const calurl = ref()
   const mapurl1 = ref()
   const mapurl2 = ref()
 
   if (isValid) {
+
+    const title = thisCity.name + " Tango"
     calurl.value =
     'https://calendar.google.com/calendar/embed?' +
     //"height=480" +

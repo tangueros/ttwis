@@ -1,5 +1,8 @@
+import { createPinia } from 'pinia'
 import DefaultTheme from 'vitepress/theme'
 import './tailwind.css'
+
+const pinia = createPinia()
 
 const componentFiles = import.meta.glob([
   //'./components/*.vue',
@@ -14,6 +17,7 @@ const componentFiles = import.meta.glob([
 export default {
   ...DefaultTheme,
   enhanceApp({ app, router, siteData }) {
+    app.use(pinia)
     DefaultTheme.enhanceApp({ app, router, siteData })
     console.log('Inside enhanceApp of Theme')
 
@@ -31,5 +35,6 @@ export default {
   },
   setup() {
     console.log('Inside setup of Theme')
+
   },
 }

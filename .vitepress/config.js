@@ -111,6 +111,14 @@ export default defineConfig({
         items: places,
       },
       {
+        text: 'Specs',
+        items: [
+          { text: 'Venues (Cities)', link: '/specs/venues' },
+          { text: 'Holidays (Countries)', link: '/specs/holidays' },
+          { text: 'Producers', link: '/soecs/producers' },
+        ]
+      },
+      {
         text: 'Guide',
         items: [
           { text: 'Introduction', link: '/guide/introduction' },
@@ -127,6 +135,7 @@ export default defineConfig({
         text: 'About',
         items: [
           { text: 'About', link: '/about' },
+          { text: 'Maps Only', link: '/maps' },
         ]
       },
     ],

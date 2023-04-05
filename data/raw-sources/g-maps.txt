@@ -1,23 +1,21 @@
 # Singapore GMap
 
-
 https://www.google.com/maps/d/u/0/edit?mid=1JDSri3tFP97YMdRn8YKCqXy_tP4&usp=sharing
-
 mid=1JDSri3tFP97YMdRn8YKCqXy_tP4
 
 # Hong Kong GMap
 
 https://www.google.com/maps/d/u/0/edit?mid=1jb2Qn9teeeQ7OJSGOvrro6PWg6Zw-hE&usp=sharing
-
 mid=1jb2Qn9teeeQ7OJSGOvrro6PWg6Zw-hE
 
 # Taiwan
+
 ## Taipei GMap
 
 # Malaysia
+
 ## Kuala Lumpur GMap
 https://www.google.com/maps/d/u/0/edit?mid=12IunBeJ40-drwYT2Wu-2gvvmvGW9l2g&ll=3.16208561295391%2C101.64411081874084&z=17
-
 mid=12IunBeJ40-drwYT2Wu-2gvvmvGW9l2g
 
 ## Penang GMap
@@ -25,19 +23,52 @@ https://www.google.com/maps/d/u/0/edit?mid=1-9hbSb6ci2xtjiE7-2-w4EsP2nvQ2dY&ll=5
 mid=1-9hbSb6ci2xtjiE7-2-w4EsP2nvQ2dY
 
 # Thailand
+
 ## Bangkok GMap
 https://www.google.com/maps/d/u/0/edit?mid=1i0IAJarMWy0F2QbXFQdDSEPQ4oW2GmU&ll=13.741491447283334%2C100.53629432681579&z=14
 mid=1i0IAJarMWy0F2QbXFQdDSEPQ4oW2GmU
 
+## Chiangmai
+
 # Indonesia
+
 ## Jakarta GMap
 
 ## Bali GMap
-
+https://www.google.com/maps/d/u/0/edit?mid=1n7KyK1dVBe_xJDvHnF_TLIKxjqw9tdY&ll=-8.692019099966831%2C115.16428922333643&z=15
+mid=1n7KyK1dVBe_xJDvHnF_TLIKxjqw9tdY
 
 
 
 # Japan
+
 ## Fukuoka
 https://www.google.com/maps/d/u/0/edit?mid=1GzAKns3AtsjEva8nzmd8KOAdNP2vk8A&ll=33.588999320092455%2C130.39698344514977&z=16
 mid=1GzAKns3AtsjEva8nzmd8KOAdNP2vk8A
+
+## Tokyo
+
+## Osaka
+
+# Korea
+
+## Seoul
+
+## Busan
+
+# China
+
+## Shanghai
+https://www.google.com/maps/d/u/0/edit?mid=19rAPpIS0D4bMT5GNaeUhncZEcb-wEHw&ll=31.230604109713084%2C121.46053480666957&z=13
+mid=19rAPpIS0D4bMT5GNaeUhncZEcb-wEHw
+
+## Beijing
+https://www.google.com/maps/d/u/0/edit?mid=1taMM2qXIB9CiQqe1Ob4l0iM9rXKP6rA&ll=39.93255094874486%2C116.36646322209862&z=13
+mid=1taMM2qXIB9CiQqe1Ob4l0iM9rXKP6rA
+
+# UAE
+## Dubai
+https://www.google.com/maps/d/u/0/edit?mid=1KEWaCzW_Sh6k-O9Xg8E7Mqi4GjEM02s&ll=25.052873651779105%2C55.001924876556906&z=11
+mid=1KEWaCzW_Sh6k-O9Xg8E7Mqi4GjEM02s
+
+

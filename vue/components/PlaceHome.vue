@@ -10,7 +10,7 @@ div(v-else)
       pre.shiki.material-theme-palenight
         | {{ thisCity }}
 
-  h1 Place: {{country}}
+  h1 Place: {{thisCity.name}} / {{ thisCity.country}}
   p Timezone: {{ thisCity.timezone }}
   p [ some picture of this country ]
   h2 Website and Facebook
@@ -60,13 +60,13 @@ div(v-else)
 
 <script setup>
 import { ref, computed, } from 'vue'
-const props = defineProps(['country', 'code'])
+const props = defineProps(['code'])
 import { useConfig } from '../composables/configdata'
 const {
   isValid, thisCity,
   calurl,
   mapurl1, mapurl2,
-} = useConfig(props.code, props.country)
+} = useConfig(props.code)
 </script>
 
 <style>
