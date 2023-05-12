@@ -11,6 +11,9 @@ mid=1jb2Qn9teeeQ7OJSGOvrro6PWg6Zw-hE
 # Taiwan
 
 ## Taipei GMap
+https://www.google.com/maps/d/u/0/edit?mid=1wNEhdGnAwud1sXjKLtcI4lcJqszUMIM&ll=25.043720114073682%2C121.54591843174072&z=16
+mid=1wNEhdGnAwud1sXjKLtcI4lcJqszUMIM
+
 
 # Malaysia
 
@@ -33,6 +36,8 @@ mid=1i0IAJarMWy0F2QbXFQdDSEPQ4oW2GmU
 # Indonesia
 
 ## Jakarta GMap
+https://www.google.com/maps/d/u/0/edit?mid=1iHRaq9BxPn_iA4fpSNgg-4U3S-cqDfY&ll=-6.236587634577397%2C106.79467406154157&z=14
+mid=1iHRaq9BxPn_iA4fpSNgg-4U3S-cqDfY
 
 ## Bali GMap
 https://www.google.com/maps/d/u/0/edit?mid=1n7KyK1dVBe_xJDvHnF_TLIKxjqw9tdY&ll=-8.692019099966831%2C115.16428922333643&z=15
@@ -47,12 +52,17 @@ https://www.google.com/maps/d/u/0/edit?mid=1GzAKns3AtsjEva8nzmd8KOAdNP2vk8A&ll=3
 mid=1GzAKns3AtsjEva8nzmd8KOAdNP2vk8A
 
 ## Tokyo
-
+https://www.google.com/maps/d/u/0/edit?mid=1v_I6gbC0sl47zL7Et4jK-0CfhjhE_7k&ll=35.7182575726359%2C139.7493804504966&z=12
+mid=1v_I6gbC0sl47zL7Et4jK-0CfhjhE_7k
 ## Osaka
-
+https://www.google.com/maps/d/u/0/edit?mid=1qz8UIu_0UbJbsyZWBhuBLiB1xM17nZE&ll=34.68398491852032%2C135.4885444070741&z=14
+mid=1qz8UIu_0UbJbsyZWBhuBLiB1xM17nZE
 # Korea
 
 ## Seoul
+https://www.google.com/maps/d/u/0/edit?mid=1GdLw3zEW61-SGvZZCD_do2nE_l71tFw&ll=37.558898519458175%2C126.89805690772245&z=13
+mid=1GdLw3zEW61-SGvZZCD_do2nE_l71tFw
+
 
 ## Busan
 
@@ -72,3 +82,25 @@ https://www.google.com/maps/d/u/0/edit?mid=1KEWaCzW_Sh6k-O9Xg8E7Mqi4GjEM02s&ll=2
 mid=1KEWaCzW_Sh6k-O9Xg8E7Mqi4GjEM02s
 
 
+
+
+====
+from Search
+
+Seattle
+https://www.google.com/maps/d/u/0/viewer?mid=1tUOpSnvc0OL0wopBaSYUxAYDi68&hl=en&ll=47.621564863976495%2C-122.28943391800931&z=12
+mid=1tUOpSnvc0OL0wopBaSYUxAYDi68
+
+
+====
+Buenos Aires
+https://www.google.com/maps/d/u/0/edit?mid=14rUryE903EyCae-uYvMp0uXaxAiCX4Y&ll=-34.56782252732292%2C-58.47289367087747&z=12
+mid=14rUryE903EyCae-uYvMp0uXaxAiCX4Y
+
+New York
+https://www.google.com/maps/d/u/0/edit?mid=1KsrBH1DD2puQEz8dU-tfxyaRgkFAvXk&ll=40.748357596427695%2C-73.9984583953807&z=13
+mid=1KsrBH1DD2puQEz8dU-tfxyaRgkFAvXk
+
+Berlin
+https://www.google.com/maps/d/u/0/edit?mid=1ic6R2KMBptYh96k9GdOOCtwU1M-vOQw&ll=52.513351259469275%2C13.38418140579142&z=13
+mid=1ic6R2KMBptYh96k9GdOOCtwU1M-vOQw

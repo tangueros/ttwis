@@ -115,7 +115,7 @@ export default defineConfig({
         items: [
           { text: 'Venues (Cities)', link: '/specs/venues' },
           { text: 'Holidays (Countries)', link: '/specs/holidays' },
-          { text: 'Producers', link: '/soecs/producers' },
+          { text: 'Producers', link: '/specs/producers' },
         ]
       },
       {

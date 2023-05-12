@@ -13,7 +13,7 @@ div(v-if="cal.cid(country)")
     ) Open in Google Calendar
 
 div(v-else)
-  p Sorry {{city}} has no definition
+  p Sorry {{country}} has no definition
 </template>
 
 <script setup>
