@@ -20,25 +20,25 @@
     "xcompile": "babel --presets es2015 src/app.js -o dist/callib.js"
   },
   "devDependencies": {
-    "@originjs/vite-plugin-content": "^1.0.3",
-    "@vitejs/plugin-vue": "^4.3.4",
-    "autoprefixer": "^10.4.15",
-    "daisyui": "^3.6.5",
-    "dayjs": "^1.11.9",
-    "esbuild": "^0.19.2",
-    "postcss": "^8.4.29",
-    "pug": "^3.0.2",
-    "tailwindcss": "^3.3.3",
-    "vite": "^4.4.9",
-    "vite-plugin-pages": "^0.31.0",
-    "vite-plugin-pages-sitemap": "^1.6.1",
-    "vitepress": "1.0.0-rc.10"
+    "@originjs/vite-plugin-content": "^1.0.5",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.14",
+    "dayjs": "^1.11.13",
+    "esbuild": "^0.24.0",
+    "postcss": "^8.4.49",
+    "pug": "^3.0.3",
+    "tailwindcss": "^3.4.15",
+    "vite": "^6.0.0",
+    "vite-plugin-pages": "^0.32.4",
+    "vite-plugin-pages-sitemap": "^1.7.1",
+    "vitepress": "1.5.0"
   },
   "dependencies": {
-    "markdown-it": "^13.0.1",
-    "pinia": "^2.1.6",
+    "markdown-it": "^14.1.0",
+    "pinia": "^2.2.6",
     "vitepress-pages": "^2.0.1",
-    "vue": "^3.3.4"
+    "vue": "^3.5.13"
   },
   "postcss": {
     "plugins": {
