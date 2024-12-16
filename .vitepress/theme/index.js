@@ -21,7 +21,6 @@ export default {
     DefaultTheme.enhanceApp({ app, router, siteData })
     console.log('Inside enhanceApp of Theme')
 
-    return
     // register global components
     Object.entries(componentFiles)
     .forEach(([path, definition]) => {
