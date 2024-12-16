@@ -21,7 +21,7 @@ const places = [
 
 export default defineConfig({
   base: '/ttwis/',
-  srcDir: './docs',
+  srcDir: './pages',
   //srcExclude
   //outDir: '',
   //cacheDir
