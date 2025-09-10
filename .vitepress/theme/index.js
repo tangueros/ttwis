@@ -1,7 +1,7 @@
-import { createPinia } from 'pinia'
 import DefaultTheme from 'vitepress/theme'
 import './tailwind.css'
 
+import { createPinia } from 'pinia'
 const pinia = createPinia()
 
 const componentFiles = import.meta.glob([

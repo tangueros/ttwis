@@ -1,10 +1,2 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-
-.content .vp-doc a {
-  color: #000;
-  background-color: #eec;
-  border: 1px solid red;
-}
