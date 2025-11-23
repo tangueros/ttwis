@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 @tailwind base;
 @tailwind components;
@@ -18,3 +19,7 @@
   background-color: #eec;
   border: 1px solid red;
 }
+=======
+@import 'tailwindcss';
+
+>>>>>>> d61e44387e3a21223fe7404546a9caa3abd1e0ce

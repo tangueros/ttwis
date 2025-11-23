@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import Pages from "vite-plugin-pages";
 import { extendRoutes } from "vitepress-pages";
 import generateSitemap from "vite-plugin-pages-sitemap"; //optional;
+//import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   base: '/ttwis',
@@ -20,6 +21,7 @@ export default defineConfig({
     '@js/':      path.resolve(__dirname, './app/js'),
   },
   plugins: [
+    //tailwindcss(),
     vue(),
     Pages({
       dirs: [{ dir: ".", baseRoute: "." }],

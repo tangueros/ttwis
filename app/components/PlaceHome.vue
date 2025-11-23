@@ -9,6 +9,9 @@ div(v-else)
     .language-
       pre.shiki.material-theme-palenight
         | {{ thisCity }}
+      hr
+      pre.shiki.material-theme-palenight
+        | {{ calurl}}
 
   h1 Place: {{thisCity.name}} / {{ thisCity.country}}
   p Timezone: {{ thisCity.timezone }}
