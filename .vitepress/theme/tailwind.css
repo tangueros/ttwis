@@ -1,7 +1,17 @@
+/*
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*/
 
+@import 'tailwindcss';
+/*
+@config '../../../../tailwind.config.cjs';
+@plugin '@tailwindcss/typography';
+*/
+
+@source '../../../../src/**/*.md'; 
+@source '../../**/*.{vue,ts}';
 
 .content .vp-doc a {
   color: #000;

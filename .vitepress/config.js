@@ -1,4 +1,5 @@
 import path from 'path';
+import Tailwind from '@tailwindcss/vite'
 import { defineConfig } from 'vitepress'
 //import content from '@originjs/vite-plugin-content'
 
@@ -75,6 +76,7 @@ export default defineConfig({
       host: '0.0.0.0',
     },
     plugins: [
+      Tailwind(),
 /*
       Pages({
         dirs: [
