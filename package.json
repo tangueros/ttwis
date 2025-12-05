@@ -26,7 +26,6 @@
   },
   "devDependencies": {
     "@originjs/vite-plugin-content": "^1.0.5",
-<<<<<<< HEAD
     "@tailwindcss/vite": "^4.1.17",
     "@vitejs/plugin-vue": "^6.0.2",
     "daisyui": "^5.5.5",
@@ -38,22 +37,10 @@
     "vite-plugin-pages": "^0.33.1",
     "vite-plugin-pages-sitemap": "^1.7.1",
     "vitepress": "1.6.4"
-=======
-    "@vitejs/plugin-vue": "^6.0.1",
-    "daisyui": "^5.1.10",
-    "dayjs": "^1.11.18",
-    "esbuild": "^0.25.9",
-    "pug": "^3.0.3",
-    "vite": "^7.1.5",
-    "vite-plugin-pages": "^0.33.1",
-    "vite-plugin-pages-sitemap": "^1.7.1",
-    "vitepress": "2.0.0-alpha.12"
->>>>>>> d61e44387e3a21223fe7404546a9caa3abd1e0ce
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
     "markdown-it": "^14.1.0",
-<<<<<<< HEAD
     "pinia": "^3.0.4",
     "vitepress-pages": "^2.0.1",
     "vue": "^3.5.24"
@@ -63,18 +50,4 @@
     "postcss": "^8.5.6"
   },
   "packageManager": "pnpm@10.23.0+sha512.21c4e5698002ade97e4efe8b8b4a89a8de3c85a37919f957e7a0f30f38fbc5bbdd05980ffe29179b2fb6e6e691242e098d945d1601772cad0fef5fb6411e2a4b"
-=======
-    "pinia": "^3.0.3",
-    "tailwindcss": "^4.1.13",
-    "vitepress-pages": "^2.0.1",
-    "vue": "^3.5.21"
-  },
-  "not_postcss": {
-    "plugins": {
-      "tailwindcss": {},
-      "autoprefixer": {}
-    }
-  },
-  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
->>>>>>> d61e44387e3a21223fe7404546a9caa3abd1e0ce
 }

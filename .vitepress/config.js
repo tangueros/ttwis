@@ -1,9 +1,5 @@
 import path from 'path';
-<<<<<<< HEAD
 import Tailwind from '@tailwindcss/vite'
-=======
-import tailwindcss from '@tailwindcss/vite'
->>>>>>> d61e44387e3a21223fe7404546a9caa3abd1e0ce
 import { defineConfig } from 'vitepress'
 
 //import content from '@originjs/vite-plugin-content'
@@ -135,7 +131,6 @@ const viteconfig = {
           '@src/': path.resolve(__dirname, '../src/'),
         },
       },
-<<<<<<< HEAD
     },
 */
     //publicDir: './public',
@@ -146,16 +141,6 @@ const viteconfig = {
     plugins: [
       Tailwind(),
 /*
-=======
-  */
-  //publicDir: './public',
-  server: {
-    port: 3000,
-    host: '0.0.0.0',
-  },
-  plugins: [
-    /*
->>>>>>> d61e44387e3a21223fe7404546a9caa3abd1e0ce
       Pages({
         dirs: [
           { dir: ".", baseRoute: "." },
@@ -169,7 +154,7 @@ const viteconfig = {
       }),
     */
     //content(),
-    tailwindcss(),
+   // tailwindcss(),
   ],
 }
 

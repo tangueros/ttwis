@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*
 @tailwind base;
 @tailwind components;
@@ -11,7 +10,7 @@
 @plugin '@tailwindcss/typography';
 */
 
-@source '../../../../src/**/*.md'; 
+@source '../../../../src/**/*.md';
 @source '../../**/*.{vue,ts}';
 
 .content .vp-doc a {
@@ -19,7 +18,3 @@
   background-color: #eec;
   border: 1px solid red;
 }
-=======
-@import 'tailwindcss';
-
->>>>>>> d61e44387e3a21223fe7404546a9caa3abd1e0ce
